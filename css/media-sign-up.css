@@ -1,0 +1,265 @@
+/*Extra Small*/
+@media screen and (max-width: 576px){
+    /*top_bar begin*/
+    #top_bar h5{
+        font-size: 12px;
+    }
+    .top_bar a{
+        font-size: 10px;
+    }
+    /*top_bar end*/
+    /*navbar begin*/
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+    .navbar .avenue_name{
+        font-size: 15px;
+    }
+    #nav-link .nav-item a{
+        font-size: 7.5px;
+    }
+    /*navbar end*/
+    /*header begin*/
+    #header_photo{
+        height: 200px;
+    }
+    #header_photo h1{
+        font-size: 30px;
+    }
+    #header_photo h2{
+        font-size: 20px;
+    }
+    /*header end*/
+
+    /*mycontent begin*/
+    /*sign-in begin*/
+    .sign-in h4{
+        font-size: 10px;
+    }
+    .sign-in button{
+        width: 110px;
+        height: 35px;
+    }
+    .sign-in{
+        border-right: none!important;
+    }
+    /*sign-in end*/
+    /*register begin*/
+    .register{
+        border-left: none!important;
+    }
+    .register .check{
+        font-size: 10px;
+        padding-top: 5;
+    }
+    .register button{
+        width: 170px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .register h4{
+        font-size: 10px;
+    }
+    /*register end*/
+    /*mycontent end*/
+
+    /*footer begin*/
+    footer{
+        margin-top: 30px;
+    }
+    .contact h4{
+        font-size: 14px;
+    }
+    .contact ul li a{
+        font-size: 13px;
+    }
+    .award_winner{
+        margin-top: 20px;
+    }
+    .award_winner h2{
+        font-size: 26px;
+    }
+    .award_winner h3{
+        font-size: 24px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .copy{
+        margin-top: 10px;
+    }
+    .copy_text_left{
+        text-align: center;
+    }
+
+    /*footer end*/
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+    #header_photo{
+        height: 200px;
+    }
+    #header_photo h1{
+        font-size: 30px;
+    }
+    #header_photo h2{
+        font-size: 20px;
+    }
+    .sign-in{
+        border-right: none!important;
+    }
+    .register{
+        border-left: none!important;
+    }
+    /*footer begin*/
+    .award_winner{
+        margin-top: 20px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .copy{
+        margin-top: 10px;
+    }
+    .copy h6{
+        text-align: center;
+    }
+
+    /*footer end*/
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+    #header_photo{
+        height: 250px;
+    }
+    #header_photo h1{
+        font-size: 32px;
+    }
+    #header_photo h2{
+        font-size: 25px;
+    }
+    .register button{
+        width: 200px;
+        font-size: 12px;
+    }
+    .sign-in{
+        border-right: none!important;
+    }
+    .register{
+        border-left: none!important;
+    }
+    /*footer begin*/
+    .award_winner{
+        margin-top: 25px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    /*footer end*/
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .navbar-nav{
+        padding-left: 220px!important;
+    }
+    .navbar-nav a{
+        font-size: 9px;
+    }
+    .register button{
+        font-size: 12px;
+    }
+    /*footer begin*/
+    .award_winner{
+        margin-top: 25px;
+    }
+    .social{
+        margin-top: 25px;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    /*footer end*/
+
+}
+/*Extra Large*/
+@media screen (min-width: 1200px){
+
+}
+
+    /*Qo'shimcha media*/
+    @media screen and (max-width:320px){
+        header h5{
+            font-size: 11px;
+        }
+        .top_bar a{
+            font-size: 10px;
+        }
+        #nav-link .nav-item a{
+            font-size: 6px!important;
+        }
+        .award_winner h2{
+            font-size: 20px;
+        }
+        .award_winner h3{
+            font-size: 20px;
+        }
+        .contact h4{
+            font-size: 12px;
+        }
+        .contact ul li a{
+            font-size: 11px;
+        }
+        #header_photo h1{
+            font-size: 25px;
+        }
+        #header_photo h2{
+            font-size: 18px;
+        }
+    }
+    @media screen and (max-width:280px){
+        #top_bar h5{
+            font-size: 10px;
+        }
+        #nav-link .nav-item a{
+            font-size: 5px!important;
+        }
+        #nav-link .container{
+            margin-top: 30px;
+        }
+        #header_photo{
+            height: 170px;
+        }
+        #header_photo h1{
+            font-size: 20px;
+        }
+        #header_photo h2{
+            font-size: 16px;
+        }
+        .sign-in button{
+            width: 90px;
+            height: 35px;
+        }
+        .register h4 a{
+            line-height: 12px;
+        }
+        .register button{
+            width: 170px;
+            height: 35px;
+            font-size: 8px;
+        }
+        .contact h4{
+            font-size: 10px;
+        }
+        .contact ul li a{
+            font-size: 10px;
+        }
+    }

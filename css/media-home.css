@@ -1,0 +1,392 @@
+/*Extra Small*/
+@media screen and (max-width: 576px){
+    #top_bar h5{
+        font-size: 12px;
+    }
+    .top_bar a{
+        font-size: 10px;
+    }
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+    #header_menu .navbar{
+        background:white !important;
+        opacity: 0.7;
+    }
+    .navbar .avenue_name{
+        font-size: 15px;
+    }
+    .item-hover{
+        position: static;
+        width: 100%;
+    }
+    .navbar-nav a{
+        opacity: 1!important;
+    }
+    header #header_bar{
+        height: 290px;
+        background-size: 100% 100%;
+    }
+    #nav-link .nav-item a{
+        font-size: 7.5px;
+    }
+    .item1{
+        background-position: center top;
+    }
+    .item2{
+        background-position: center top;
+    }
+    .item5{
+        background-position: center top;
+    }
+    .item6{
+        background-position: center top;
+    }
+    .item-hover button{
+        margin-left:52px!important;
+    }
+    #lookbook{
+        height: auto;
+    }
+    .men{
+        height: 288px!important;
+    }
+    .women{
+        height: 288px!important;
+    }
+    .your{
+        height: 288px!important;
+    }
+    .lookbook-men-text h1{
+        font-size: 35px;
+    }
+    .lookbook-men-text h2{
+        font-size: 25px;
+    }
+    .lookbook-men-text p{
+        font-size: 10px;
+    }
+    .lookbook-women{
+        background-color: #f8f8f8;
+    }
+    .lookbook-women-text h1{
+        font-size: 30px;
+    }
+    .lookbook-women-text h2{
+        font-size: 28px;
+    }
+    .lookbook-women-text p{
+        font-size: 10px;
+    }
+    .lookbook-your-text h1{
+        font-size: 35px;
+    }
+    .lookbook-your-text h2{
+        font-size: 25px;
+    }
+    .lookbook-your-text p {
+        font-size: 10px;
+    }
+/*footer begin*/
+     footer{
+         margin-top: 30px;
+     }
+    .contact h4{
+        font-size: 14px;
+    }
+    .contact ul li a{
+        font-size: 13px;
+    }
+    .award_winner{
+        margin-top: 20px;
+    }
+    .award_winner h2{
+        font-size: 26px;
+    }
+    .award_winner h3{
+        font-size: 24px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .copy{
+        margin-top: 10px;
+    }
+    .copy_text_left{
+        text-align: center;
+    }
+
+/*footer end*/
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+    #header_menu .navbar{
+        background:white !important;
+    }
+    header #header_bar{
+        height: 450px;
+    }
+    #header_menu .navbar{
+        background:white !important;
+        opacity: 0.7;
+    }
+    .lookbook-men-text h1{
+        font-size: 35px;
+    }
+    .lookbook-men-text h2{
+        font-size: 25px;
+    }
+    .lookbook-women-text h1{
+        font-size: 30px;
+    }
+    .lookbook-women-text h2{
+        font-size: 28px;
+    }
+    .lookbook-your-text h1{
+        font-size: 35px;
+    }
+    .lookbook-your-text h2{
+        font-size: 25px;
+    }
+    /*footer begin*/
+    .award_winner{
+        margin-top: 20px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .copy{
+        margin-top: 10px;
+    }
+    .copy h6{
+        text-align: center;
+    }
+    /*footer end*/
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+    #header_menu .navbar{
+        background:white !important;
+    }
+    header #header_bar{
+        height: 348px;
+    }
+    #header_menu .navbar{
+        background:white !important;
+        opacity: 0.7;
+    }
+    .lookbook-men-text h1{
+        font-size: 35px;
+    }
+    .lookbook-men-text h2{
+        font-size: 25px;
+    }
+    .lookbook-women-text h1{
+        font-size: 30px;
+    }
+    .lookbook-women-text h2{
+        font-size: 28px;
+    }
+    .lookbook-your-text h1{
+        font-size: 35px;
+    }
+    .lookbook-your-text h2{
+        font-size: 25px;
+    }
+    .item-hover{
+        position: static;
+        width: 100%;
+    }
+    /*footer begin*/
+    .award_winner{
+        margin-top: 25px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    /*footer end*/
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .navbar-nav{
+        padding-left: 220px!important;
+    }
+    .navbar-nav a{
+        font-size: 9px;
+    }
+    header #header_bar{
+        height: 540px;
+    }
+    .sub_nav{
+        width: 480px;
+        height: auto;
+    }
+    .sub_nav_box{
+        justify-content: center;
+        padding-left: 285px!important;
+    }
+    .item-hover{
+        position: static;
+        width: 100%;
+    }
+    /*footer begin*/
+    .award_winner{
+        margin-top: 25px;
+    }
+    .social{
+        margin-top: 25px;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    /*footer end*/
+
+}
+/*Extra Large*/
+@media screen (min-width: 1200px){
+
+}
+
+/*Qo'shimcha media*/
+@media screen and (max-width:320px){
+    header h5{
+        font-size: 11px;
+    }
+    .top_bar a{
+        font-size: 10px;
+    }
+    #nav-link .nav-item a{
+        font-size: 6px!important;
+    }
+    .lookbook-men-text h1{
+        font-size: 28px;
+    }
+    .lookbook-men-text h2{
+        font-size: 25px;
+    }
+    .lookbook-women-text h1{
+        font-size: 28px;
+    }
+    .lookbook-women-text h2{
+        font-size: 25px;
+    }
+    .lookbook-your-text h1{
+        font-size: 28px;
+    }
+    .lookbook-your-text h2{
+        font-size: 25px;
+    }
+    .award_winner h2{
+        font-size: 20px;
+    }
+    .award_winner h3{
+        font-size: 20px;
+    }
+    .contact h4{
+        font-size: 12px;
+    }
+    .contact ul li a{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:280px){
+    #top_bar h5{
+        font-size: 10px;
+    }
+    #nav-link .nav-item a{
+        font-size: 5px!important;
+    }
+    #nav-link .container{
+         margin-top: 30px;
+    }
+    .item1{
+        margin-top: 5px;
+    }
+    .lookbook-men-text h1{
+        font-size: 20px;
+    }
+    .lookbook-men-text h2{
+        font-size: 20px;
+    }
+    .lookbook-women-text h1{
+        font-size: 20px;
+    }
+    .lookbook-women-text h2{
+        font-size: 20px;
+    }
+    .lookbook-your-text h1{
+        font-size: 20px;
+    }
+    .lookbook-your-text h2{
+        font-size: 20px;
+    }
+    .lookbook-men-text button{
+        font-size: 10px;
+    }
+    .lookbook-women-text button{
+        font-size: 10px;
+    }
+    .lookbook-your-text button{
+        font-size: 10px;
+    }
+    .lookbook-men-text button{
+        font-size: 12px;
+    }
+    .lookbook-women-text button{
+        font-size: 12px;
+    }
+    .lookbook-your-text button{
+        font-size: 12px;
+    }
+}
+/*    item-hover*/
+@media screen and (max-width: 281px) and  (min-width: 279px){
+        .item-hover button{
+            margin-left: 30px!important;
+        }
+    }
+@media screen and (max-width: 412px) and  (min-width: 410px){
+    .item-hover button{
+        margin-left: 70px!important;
+    }
+}
+@media screen and (max-width: 322px) and  (min-width: 320px){
+    .item-hover button{
+        margin-left: 45px!important;
+    }
+}
+@media screen and (max-width: 376px) and  (min-width: 374px){
+    .item-hover button{
+        margin-left: 60px!important;
+    }
+}
+@media screen and (max-width: 415px) and  (min-width: 413px){
+    .item-hover button{
+        margin-left: 68px!important;
+    }
+}
+
+@media screen and (max-width: 451px) and  (min-width: 449px){
+    .item-hover button{
+        margin-left: 75px!important;
+    }
+}
+@media screen and (max-width: 770px) and  (min-width: 766px){
+    .item-hover button{
+        margin-left: 54px!important;
+    }
+}
+@media screen and (max-width: 1025px) and  (min-width: 1023px){
+    .item-hover button{
+        margin-left: 85px!important;
+    }
+}

@@ -1,0 +1,280 @@
+/*Shahzod Maxammatov*/
+/*Tel:(90) 192-99-00*/
+/*Telegram:@Shakhzod_Developer777*/
+*{margin: 0;padding: 0;box-sizing: border-box!important;}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("../Shrift/Montserrat-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url("../Shrift/Montserrat-Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("../Shrift/Montserrat-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../Shrift/Roboto-Regular.ttf") format('truetype');
+}
+body{
+    height: auto;
+    background-color: #fff!important;
+}
+/*top_bar begin*/
+#top_bar{
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+#top_bar h5{
+    color: #777777;
+    font-size: 20px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+}
+.top_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.top_bar a{
+    color: #999!important;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+}
+.top_bar a:hover{
+    color: #c2c2c2 !important;
+}
+#top_bar h5:hover{
+    color: #b3b3b3;
+}
+#empty{
+    height: 100%;
+    background-color: #00c8c8;
+}
+#empty h6{
+    font-size: 16px;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    color: #fff;
+}
+#empty h6:hover{
+    color: #e2e2e2;
+}
+/*top_bar end*/
+
+/*header begin*/
+header{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+/*header_bar begin*/
+header #header_bar{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+#header_menu .navbar{
+    background:#f8f8f8!important;
+}
+.navbar .avenue_name{
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+}
+.navbar-nav{
+    padding-left: 400px!important;
+}
+.navbar-nav a{
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    color: #222222!important;
+    font-size: 10px;
+}
+.navbar-nav a:hover{
+    color: #00c8c8!important;
+}
+#header_photo{
+    width: 100%;
+    height: 300px;
+    /*border-bottom: 2px dashed blue;*/
+    background-color: #fff;
+    background-image: url("../img_-_6/The Brand/header_photo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#header_photo h1{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 38px;
+    font-family:  Montserrat-Light,Montserrat-Bold;
+
+}
+#header_photo h2{
+    color: #fff;
+    font-size: 30px;
+    font-family: Montserrat-Regular;
+}
+/*header_bar end*/
+
+/*header end*/
+
+/*content begin*/
+
+#sign{
+    width: 100%;
+}
+#sign h2{
+    color: #575153;
+    font-size: 18px;
+    font-family: Montserrat-Regular;
+}
+.form-control:focus{
+    border: 1px solid #bb5465!important;
+    box-shadow: none!important;
+    background-color: #fcf6f7!important;
+}
+.sign-in{
+    border-right: 1px solid #eee;
+}
+.register{
+    border-left: 1px solid #eee;
+}
+.sign-in button{
+    width: 130px;
+    height: 45px;
+    border: 1px solid #737373;
+    background-color: #fff!important;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.sign-in button:hover{
+    color: #f8f8f8;
+    background-color:#00c8c8!important;
+    border: none!important;
+}
+.sign-in h4{
+    font-size: 14px;
+}
+.sign-in h4 a{
+    color: #00c8c8;
+    font-family: Roboto-Regular;
+    text-decoration: none;
+}
+.sign-in h4 a:hover{
+    color: #009595;
+    text-decoration: none;
+}
+.register .check{
+    color: #8e8c8c;
+    font-family: Roboto-Regular;
+    font-size: 15px;
+}
+.register button{
+    width:300px;
+    height: 50px;
+    border: 1px solid #737373;
+    background-color: #fff!important;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.register button:hover{
+    color: #f8f8f8;
+    background-color:#00c8c8!important;
+    border: 1px solid #00c8c8!important;
+}
+.register h4{
+    font-size: 14px;
+}
+.register h4 a{
+    color: #8e8c8c;
+    font-family: Roboto-Regular;
+    text-decoration: none;
+    line-height: 18px;
+}
+.register h4 a:hover{
+    color: #009595;
+    text-decoration: none;
+}
+/*content end*/
+
+
+
+/*footer begin*/
+footer{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    margin-top: 40px;
+}
+.contact{
+    width: 100%;
+}
+.contact h4{
+    color: #575153;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.contact ul{
+    list-style: none;
+}
+.contact ul li a{
+    text-decoration: none;
+    color: #727272;
+    font-family: Montserrat-Light;
+    font-weight: bold;
+    font-size: 15px;
+}
+.contact ul li a:hover{
+    color: #afafaf !important;
+}
+.award_winner{
+    background-color: #333333!important;
+}
+.award_winner h2{
+    color: #fff;
+    font-family: Montserrat-Bold,Montserrat-Light;
+    font-weight: bold;
+    font-size: 28px;
+}
+.award_winner h3{
+    color: #fff;
+    font-family: Montserrat-Light;
+    font-weight: bold;
+    font-size: 28px;
+}
+.social{
+    background-color: #00c8c8!important;
+}
+.social a i{
+    color: #fff!important;
+    font-size: 25px;
+}
+.social a i:hover{
+    color: #e9e9e9 !important;
+}
+.copy{
+    width: 100%;
+    background-color: #333333;
+}
+.copy h6{
+    color: #999999;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+    font-size: 12px;
+}
+/*footer end*/
+/*.b{*/
+/*    border: 1px solid red;*/
+/*}*/

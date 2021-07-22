@@ -1,0 +1,351 @@
+/*Extra Small*/
+@media screen and (max-width: 576px){
+    /*top_bar begin*/
+    #top_bar h5{
+        font-size: 12px;
+    }
+    .top_bar a{
+        font-size: 10px;
+    }
+    /*top_bar end*/
+    /*navbar begin*/
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+    .navbar .avenue_name{
+        font-size: 15px;
+    }
+    #nav-link .nav-item a{
+        font-size: 7.5px;
+    }
+    /*navbar end*/
+    /*header begin*/
+    #header_photo{
+        height: 200px;
+    }
+    #header_photo h1{
+        font-size:25px;
+    }
+    #header_photo h2{
+        font-size: 9px;
+    }
+    /*header end*/
+
+    /*mycontent begin*/
+    #mycontent img{
+        height: 400px!important;
+    }
+    #select_color{
+        width: 95px;
+        font-size: 10px!important;
+    }
+    #mycontent input[type="number"]{
+        font-size: 10px!important;
+    }
+    #mycontent #btn-add1{
+        width: 110px;
+        height: 45px;
+        font-size: 9px;
+    }
+    #mycontent #btn-add2{
+        width: 148px;
+        height: 45px;
+        font-size: 9px;
+    }
+    #mycontent h4{
+        font-size: 12px;
+    }
+    .size{
+        margin-left: 18px;
+    }
+    .qty{
+        margin-left: 75px;
+    }
+    .btn_box{
+        width: 100% !important;
+    }
+    .btn-group button{
+        font-size: 6px;
+    }
+    #mycontent-text h2{
+        font-size: 8px;
+    }
+    #mycontent-text p{
+        font-size: 11px;
+    }
+    /*mycontent end*/
+
+    /*footer begin*/
+    footer{
+        margin-top: 30px;
+    }
+    .contact h4{
+        font-size: 14px;
+    }
+    .contact ul li a{
+        font-size: 13px;
+    }
+    .award_winner{
+        margin-top: 20px;
+    }
+    .award_winner h2{
+        font-size: 26px;
+    }
+    .award_winner h3{
+        font-size: 24px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .copy{
+        margin-top: 10px;
+    }
+    .copy_text_left{
+        text-align: center;
+    }
+
+    /*footer end*/
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+    #header_photo{
+        height: 200px;
+    }
+    #header_photo h1{
+        font-size: 25px;
+    }
+    #header_photo h2{
+        font-size: 12px;
+    }
+    #select_color{
+        width: 180px!important;
+        font-size: 14px!important;
+    }
+    #mycontent #btn-add1{
+        width: 205px;
+    }
+    #mycontent #btn-add2{
+        width: 220px;
+    }
+    #mycontent img{
+        height: 380px!important;
+    }
+    .btn-group button{
+        font-size: 9px;
+    }
+    /*footer begin*/
+    .award_winner{
+        margin-top: 20px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .copy{
+        margin-top: 10px;
+    }
+    .copy h6{
+        text-align: center;
+    }
+
+    /*footer end*/
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .navbar-nav{
+        padding-left: 0px!important;
+    }
+    #header_photo{
+        height: 250px;
+    }
+    #header_photo h1{
+        font-size: 32px;
+    }
+    #header_photo h2{
+        font-size: 18px;
+    }
+    #mycontent img{
+        height: 450px!important;
+    }
+    /*footer begin*/
+    .award_winner{
+        margin-top: 25px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    /*footer end*/
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .navbar-nav{
+        padding-left: 220px!important;
+    }
+    .navbar-nav a{
+        font-size: 7px;
+    }
+    #mycontent #btn-add1{
+        width: 185px;
+    }
+    #header_photo h2{
+        font-size: 24px;
+    }
+    /*footer begin*/
+    .award_winner{
+        margin-top: 25px;
+    }
+    .social{
+        margin-top: 25px;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    /*footer end*/
+
+}
+/*Extra Large*/
+@media screen (min-width: 1200px){
+
+}
+
+    /*Qo'shimcha media*/
+    @media screen and (max-width:320px){
+        header h5{
+            font-size: 11px;
+        }
+        .top_bar a{
+            font-size: 10px;
+        }
+        #nav-link .nav-item a{
+            font-size: 6px!important;
+        }
+        .award_winner h2{
+            font-size: 20px;
+        }
+        .award_winner h3{
+            font-size: 20px;
+        }
+        .contact h4{
+            font-size: 12px;
+        }
+        .contact ul li a{
+            font-size: 11px;
+        }
+        #header_photo h1{
+            font-size: 25px;
+        }
+        #header_photo h2{
+            font-size: 8px;
+        }
+        #mycontent h5{
+            font-size: 12px;
+        }
+        #mycontent p{
+            font-size: 11px;
+        }
+        #select_color{
+            width: 80px!important;
+            font-size: 8px!important;
+        }
+        #mycontent #btn-add1{
+            width: 90px;
+            height: 40px;
+            font-size: 10px;
+        }
+        #mycontent #btn-add2{
+            width: 120px;
+            height: 40px;
+            font-size: 10px;
+        }
+        #mycontent h4{
+            font-size: 10px;
+        }
+        .btn-group button{
+            font-size: 5px;
+        }
+        #mycontent-text h2{
+            font-size: 7px;
+        }
+        #mycontent-text p{
+            font-size: 10px;
+        }
+
+    }
+    @media screen and (max-width:280px){
+        #top_bar h5{
+            font-size: 10px;
+        }
+        #nav-link .nav-item a{
+            font-size: 5px!important;
+        }
+        #nav-link .container{
+            margin-top: 30px;
+        }
+        #header_photo{
+            height: 170px;
+        }
+        #header_photo h1{
+            font-size: 20px;
+        }
+        #header_photo h2{
+            font-size: 7px;
+        }
+        #mycontent h3{
+            font-size: 14px;
+        }
+        #select_color{
+            width: 60px!important;
+            font-size: 6px!important;
+        }
+        #mycontent #btn-add1{
+            width: 90px;
+        }
+        #mycontent #btn-add2{
+            width: 90px;
+        }
+        #mycontent img{
+            height: 280px!important;
+        }
+        .qty{
+            margin-left: 30px;
+        }
+        .contact h4{
+            font-size: 10px;
+        }
+        .contact ul li a{
+            font-size: 10px;
+        }
+        .btn{
+            padding: 1px!important;
+        }
+        .btn-group button{
+            font-size: 6px;
+        }
+        #mycontent-text h2{
+            font-size: 6px;
+        }
+        #mycontent-text p{
+            font-size: 8px;
+        }
+        #mycontent #btn-add3{
+            width: 30px;
+        }
+    }
+    @media screen and (max-width:452px) and (min-width: 448px){
+        .size{
+            margin-left: 48px!important;
+        }
+    }
+    @media screen and (max-width:412px) and (min-width: 410px){
+        .size{
+            margin-left: 50px!important;
+        }
+        #header_photo h2{
+            font-size: 10px;
+        }
+    }
